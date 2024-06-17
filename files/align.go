@@ -17,6 +17,20 @@ func maxFields(data [][]string) (result int) {
 }
 
 func maxWidth(data [][]string) (result []int) {
+    for c := 0; c < maxFields(data); c++ {
+        max := 0
+        
+        for r := 0; r < len(data); r++ {
+            row := data[r]
+            
+            if c < len(row) && len(row[c]) > max {
+                max = len(row)
+            }
+        }
+        
+        result = append(result, max)
+    }
+    
     return
 }
 
