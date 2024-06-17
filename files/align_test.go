@@ -35,7 +35,7 @@ func TestMaxFields(t *testing.T) {
 
 func TestMaxWidth(t *testing.T) {
     assert.Len(t, maxWidth(splittedText), 10)
-    assert.Equals(t, maxWidth(splittedText)[0], 4)
+    assert.Equal(t, maxWidth(splittedText)[0], 4)
 }
 
 func TestSplit(t *testing.T) {
