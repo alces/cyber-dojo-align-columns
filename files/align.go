@@ -5,6 +5,14 @@ import (
 )
 
 func maxFields(data [][]string) (result int) {
+    for i := 0; i < len(data); i++ {
+        size := len(data[i])
+        
+        if size > result {
+            result = size
+        }
+    }
+    
     return
 }
 
