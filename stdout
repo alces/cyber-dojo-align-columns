@@ -1,11 +1,90 @@
-[10 10 10 10 8 10 10 10 10 10]
+row = [Good now, sit down, and tell me, he that knows,], word = Good, max = 0
+row = [Why this same strict and most observant watch], word = Why, max = 10
+row = [So nightly toils the subject of the land,], word = So, max = 10
+row = [And why such daily cast of brazen cannon], word = And, max = 10
+row = [And foreign mart for implements of war,], word = And, max = 10
+row = [Why such impress of shipwrights, whose sore task], word = Why, max = 10
+row = [Does not divide the Sunday from the week.], word = Does, max = 10
+row = [What might be toward that this sweaty haste], word = What, max = 10
+row = [Doth make the night joint laborer with the day?], word = Doth, max = 10
+row = [Who is’t that can inform me?], word = Who, max = 10
+row = [Good now, sit down, and tell me, he that knows,], word = now,, max = 0
+row = [Why this same strict and most observant watch], word = this, max = 10
+row = [So nightly toils the subject of the land,], word = nightly, max = 10
+row = [And why such daily cast of brazen cannon], word = why, max = 10
+row = [And foreign mart for implements of war,], word = foreign, max = 10
+row = [Why such impress of shipwrights, whose sore task], word = such, max = 10
+row = [Does not divide the Sunday from the week.], word = not, max = 10
+row = [What might be toward that this sweaty haste], word = might, max = 10
+row = [Doth make the night joint laborer with the day?], word = make, max = 10
+row = [Who is’t that can inform me?], word = is’t, max = 10
+row = [Good now, sit down, and tell me, he that knows,], word = sit, max = 0
+row = [Why this same strict and most observant watch], word = same, max = 10
+row = [So nightly toils the subject of the land,], word = toils, max = 10
+row = [And why such daily cast of brazen cannon], word = such, max = 10
+row = [And foreign mart for implements of war,], word = mart, max = 10
+row = [Why such impress of shipwrights, whose sore task], word = impress, max = 10
+row = [Does not divide the Sunday from the week.], word = divide, max = 10
+row = [What might be toward that this sweaty haste], word = be, max = 10
+row = [Doth make the night joint laborer with the day?], word = the, max = 10
+row = [Who is’t that can inform me?], word = that, max = 10
+row = [Good now, sit down, and tell me, he that knows,], word = down,, max = 0
+row = [Why this same strict and most observant watch], word = strict, max = 10
+row = [So nightly toils the subject of the land,], word = the, max = 10
+row = [And why such daily cast of brazen cannon], word = daily, max = 10
+row = [And foreign mart for implements of war,], word = for, max = 10
+row = [Why such impress of shipwrights, whose sore task], word = of, max = 10
+row = [Does not divide the Sunday from the week.], word = the, max = 10
+row = [What might be toward that this sweaty haste], word = toward, max = 10
+row = [Doth make the night joint laborer with the day?], word = night, max = 10
+row = [Who is’t that can inform me?], word = can, max = 10
+row = [Good now, sit down, and tell me, he that knows,], word = and, max = 0
+row = [Why this same strict and most observant watch], word = and, max = 10
+row = [So nightly toils the subject of the land,], word = subject, max = 10
+row = [And why such daily cast of brazen cannon], word = cast, max = 10
+row = [And foreign mart for implements of war,], word = implements, max = 10
+row = [Why such impress of shipwrights, whose sore task], word = shipwrights,, max = 10
+row = [Does not divide the Sunday from the week.], word = Sunday, max = 8
+row = [What might be toward that this sweaty haste], word = that, max = 8
+row = [Doth make the night joint laborer with the day?], word = joint, max = 8
+row = [Who is’t that can inform me?], word = inform, max = 8
+row = [Good now, sit down, and tell me, he that knows,], word = tell, max = 0
+row = [Why this same strict and most observant watch], word = most, max = 10
+row = [So nightly toils the subject of the land,], word = of, max = 10
+row = [And why such daily cast of brazen cannon], word = of, max = 10
+row = [And foreign mart for implements of war,], word = of, max = 10
+row = [Why such impress of shipwrights, whose sore task], word = whose, max = 10
+row = [Does not divide the Sunday from the week.], word = from, max = 10
+row = [What might be toward that this sweaty haste], word = this, max = 10
+row = [Doth make the night joint laborer with the day?], word = laborer, max = 10
+row = [Who is’t that can inform me?], word = me?, max = 10
+row = [Good now, sit down, and tell me, he that knows,], word = me,, max = 0
+row = [Why this same strict and most observant watch], word = observant, max = 10
+row = [So nightly toils the subject of the land,], word = the, max = 10
+row = [And why such daily cast of brazen cannon], word = brazen, max = 10
+row = [And foreign mart for implements of war,], word = war,, max = 10
+row = [Why such impress of shipwrights, whose sore task], word = sore, max = 10
+row = [Does not divide the Sunday from the week.], word = the, max = 10
+row = [What might be toward that this sweaty haste], word = sweaty, max = 10
+row = [Doth make the night joint laborer with the day?], word = with, max = 10
 --- FAIL: TestMaxWidth (0.00s)
-    align_test.go:39: 
-        	Error Trace:	align_test.go:39
-        	Error:      	Not equal: 
-        	            	expected: 10
-        	            	actual  : 4
-        	Test:       	TestMaxWidth
-FAIL
-exit status 1
-FAIL	_/sandbox	0.003s
+panic: runtime error: index out of range [6] with length 6 [recovered]
+	panic: runtime error: index out of range [6] with length 6
+
+goroutine 20 [running]:
+testing.tRunner.func1.2({0x5ce2a0, 0xc0000ec228})
+	/usr/local/go/src/testing/testing.go:1389 +0x24e
+testing.tRunner.func1()
+	/usr/local/go/src/testing/testing.go:1392 +0x39f
+panic({0x5ce2a0, 0xc0000ec228})
+	/usr/local/go/src/runtime/panic.go:838 +0x207
+_/sandbox.maxWidth({0x73a180, 0xa, 0x70e180?})
+	/sandbox/align.go:26 +0x26e
+_/sandbox.TestMaxWidth(0x0?)
+	/sandbox/align_test.go:37 +0x3a
+testing.tRunner(0xc00011c1a0, 0x5f2cb0)
+	/usr/local/go/src/testing/testing.go:1439 +0x102
+created by testing.(*T).Run
+	/usr/local/go/src/testing/testing.go:1486 +0x35f
+exit status 2
+FAIL	_/sandbox	0.004s

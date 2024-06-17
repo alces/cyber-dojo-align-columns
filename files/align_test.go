@@ -1,7 +1,6 @@
 package align
 
 import (
-    "fmt"
     "testing"
     "github.com/stretchr/testify/assert"
 )
@@ -37,7 +36,6 @@ func TestMaxFields(t *testing.T) {
 func TestMaxWidth(t *testing.T) {
     assert.Len(t, maxWidth(splittedText), 10)
     assert.Equal(t, maxWidth(splittedText)[0], 4)
-    fmt.Println(maxWidth(splittedText))
 }
 
 func TestSplit(t *testing.T) {

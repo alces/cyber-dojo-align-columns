@@ -1,6 +1,7 @@
 package align
 
 import (
+    "fmt"
     "strings"
 )
 
@@ -22,6 +23,7 @@ func maxWidth(data [][]string) (result []int) {
         
         for r := 0; r < len(data); r++ {
             row := data[r]
+            fmt.Printf("row = %v, word = %v, max = %v\n", row, row[c], max)
             
             if c < len(row) && len(row[c]) > max {
                 max = len(row)
