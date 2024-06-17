@@ -4,7 +4,7 @@ import (
     "strings"
 )
 
-func maxWidth(data [][]string) (result []int) {
+func maxFields(data [][]string) (result int) {
     return
 }
 

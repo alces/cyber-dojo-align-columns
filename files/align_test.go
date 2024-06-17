@@ -29,9 +29,8 @@ var splittedText = [][]string{
     {"Who", "is’t", "that", "can", "inform", "me?"},
 }
 
-func TestMaxWidth(t *testing.T) {
-    assert.Len(t, maxWidth(splittedText), 10)
-    // assert.Equal(t, 4, maxWidth(splittedText)[0])
+func TestMaxFields(t *testing.T) {
+    assert.Equal(t, maxFields(splittedText), 10)
 }
 
 func TestSplit(t *testing.T) {
