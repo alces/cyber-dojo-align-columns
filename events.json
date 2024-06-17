@@ -27,5 +27,21 @@
       30,
       171040
     ]
+  },
+  {
+    "duration": 0.004593,
+    "colour": "pulling",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 2,
+    "time": [
+      2024,
+      6,
+      17,
+      7,
+      7,
+      48,
+      396280
+    ]
   }
 ]
