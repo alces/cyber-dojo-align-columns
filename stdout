@@ -1,2 +1,8 @@
-PASS
-ok  	_/sandbox	0.016s
+--- FAIL: TestMaxWidth (0.00s)
+    align_test.go:37: 
+        	Error Trace:	align_test.go:37
+        	Error:      	"[]" should have 10 item(s), but has 0
+        	Test:       	TestMaxWidth
+FAIL
+exit status 1
+FAIL	_/sandbox	0.002s
