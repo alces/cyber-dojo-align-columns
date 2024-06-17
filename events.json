@@ -219,5 +219,21 @@
       39,
       779278
     ]
+  },
+  {
+    "duration": 3.829814,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 14,
+    "time": [
+      2024,
+      6,
+      17,
+      8,
+      35,
+      59,
+      749315
+    ]
   }
 ]
