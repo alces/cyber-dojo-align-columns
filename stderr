@@ -1,0 +1,2 @@
+# _/sandbox [_/sandbox.test]
+./align_test.go:40:16: cannot use maxWidth(splittedText) (value of type []int) as type string in argument to fmt.Printf

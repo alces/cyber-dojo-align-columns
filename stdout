@@ -1,10 +1,1 @@
---- FAIL: TestMaxWidth (0.00s)
-    align_test.go:38: 
-        	Error Trace:	align_test.go:38
-        	Error:      	Not equal: 
-        	            	expected: 10
-        	            	actual  : 4
-        	Test:       	TestMaxWidth
-FAIL
-exit status 1
-FAIL	_/sandbox	0.005s
+FAIL	_/sandbox [build failed]
