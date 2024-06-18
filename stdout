@@ -1,19 +1,18 @@
 --- FAIL: TestAlignt (0.00s)
-    align_test.go:50: 
-        	Error Trace:	align_test.go:50
+    align_test.go:49: 
+        	Error Trace:	align_test.go:49
         	Error:      	Not equal: 
-        	            	expected: "\nGood now,    sit     down,  and          tell    me,       he     that knows,\nWhy  this    same    strict and          most    observant watch  \nSo   nightly toils   the    subject      of      the       land,  \nAnd  why     such    daily  cast         of      brazen    cannon \nAnd  foreign mart    for    implements   of      war,      \nWhy  such    impress of     shipwrights, whose   sore      task   \nDoes not     divide  the    Sunday       from    the       week.  \nWhat might   be      toward that         this    sweaty    haste  \nDoth make    the     night  joint        laborer with      the    day? \nWho  is’t    that    can    inform       me?     \n"
+        	            	expected: "Good now,    sit     down,  and          tell    me,       he     that knows,\nWhy  this    same    strict and          most    observant watch  \nSo   nightly toils   the    subject      of      the       land,  \nAnd  why     such    daily  cast         of      brazen    cannon \nAnd  foreign mart    for    implements   of      war,      \nWhy  such    impress of     shipwrights, whose   sore      task   \nDoes not     divide  the    Sunday       from    the       week.  \nWhat might   be      toward that         this    sweaty    haste  \nDoth make    the     night  joint        laborer with      the    day? \nWho  is’t    that    can    inform       me?     \n"
         	            	actual  : "Good now,    sit     down,  and          tell    me,       he     that knows, \nWhy  this    same    strict and          most    observant watch  \nSo   nightly toils   the    subject      of      the       land,  \nAnd  why     such    daily  cast         of      brazen    cannon \nAnd  foreign mart    for    implements   of      war,      \nWhy  such    impress of     shipwrights, whose   sore      task   \nDoes not     divide  the    Sunday       from    the       week.  \nWhat might   be      toward that         this    sweaty    haste  \nDoth make    the     night  joint        laborer with      the    day? \nWho  is’t  that    can    inform       me?     \n"
         	            	
         	            	Diff:
         	            	--- Expected
         	            	+++ Actual
-        	            	@@ -1,3 +1,2 @@
-        	            	-
+        	            	@@ -1,2 +1,2 @@
         	            	-Good now,    sit     down,  and          tell    me,       he     that knows,
         	            	+Good now,    sit     down,  and          tell    me,       he     that knows, 
         	            	 Why  this    same    strict and          most    observant watch  
-        	            	@@ -10,3 +9,3 @@
+        	            	@@ -9,3 +9,3 @@
         	            	 Doth make    the     night  joint        laborer with      the    day? 
         	            	-Who  is’t    that    can    inform       me?     
         	            	+Who  is’t  that    can    inform       me?     
