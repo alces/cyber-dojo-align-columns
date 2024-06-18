@@ -4,15 +4,16 @@ import (
     "strings"
 )
 
-func Align(text string) (result string) {
+func Align(text string) string {
     data := split(text)
     sizes := maxWidth(data)
+    result := make([]string, len(data))
     
-    for _, row := range data {
-        result += alignedLine(row, sizes) + "\n"
+    for i, r := range data {
+        result[i] = alignedLine(r, sizes)
     }
     
-    return
+    return strings.Join(result, "\n")
 }
 
 func addSpaces(word string, width int) string {

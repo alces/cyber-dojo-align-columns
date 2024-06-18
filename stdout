@@ -1,17 +1,2 @@
---- FAIL: TestAlign (0.00s)
-    align_test.go:48: 
-        	Error Trace:	align_test.go:48
-        	Error:      	Not equal: 
-        	            	expected: "Good now,    sit     down,  and          tell    me,       he     that knows,\nWhy  this    same    strict and          most    observant watch\nSo   nightly toils   the    subject      of      the       land,\nAnd  why     such    daily  cast         of      brazen    cannon\nAnd  foreign mart    for    implements   of      war,\nWhy  such    impress of     shipwrights, whose   sore      task\nDoes not     divide  the    Sunday       from    the       week.\nWhat might   be      toward that         this    sweaty    haste\nDoth make    the     night  joint        laborer with      the    day?\nWho  is't    that    can    inform       me?"
-        	            	actual  : "Good now,    sit     down,  and          tell    me,       he     that knows,\nWhy  this    same    strict and          most    observant watch\nSo   nightly toils   the    subject      of      the       land,\nAnd  why     such    daily  cast         of      brazen    cannon\nAnd  foreign mart    for    implements   of      war,\nWhy  such    impress of     shipwrights, whose   sore      task\nDoes not     divide  the    Sunday       from    the       week.\nWhat might   be      toward that         this    sweaty    haste\nDoth make    the     night  joint        laborer with      the    day?\nWho  is't    that    can    inform       me?\n"
-        	            	
-        	            	Diff:
-        	            	--- Expected
-        	            	+++ Actual
-        	            	@@ -10 +10,2 @@
-        	            	 Who  is't    that    can    inform       me?
-        	            	+
-        	Test:       	TestAlign
-FAIL
-exit status 1
-FAIL	_/sandbox	0.002s
+PASS
+ok  	_/sandbox	0.006s
