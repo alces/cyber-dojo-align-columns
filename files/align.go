@@ -6,13 +6,10 @@ import (
 
 func Align(text string) (result string) {
     data := split(text)
-    width := maxWidth(data)
+    sizes := maxWidth(data)
     
-    for _, r := range data {
-        for i := 0; i < len(r); i++ {
-            result += addSpaces(r[i], width[i]) + " "
-        }
-        result += "\n"
+    for _, row := range data {
+        result += alignedLine(row, sizes) + "\n"
     }
     
     return
