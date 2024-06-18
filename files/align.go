@@ -1,6 +1,7 @@
 package align
 
 import (
+    "fmt"
     "strings"
 )
 
@@ -10,7 +11,11 @@ func Align(text string) (result string) {
     
     for _, r := range data {
         for i := 0; i < len(r); i++ {
-            result += addSpaces(r[i], width[i]) + " "
+            word := addSpaces(r[i], width[i]) + " "
+            if i == 1 {
+                fmt.Printf("word: '%v', width: %v", word, width[i])
+            }    
+            result += word
         }
         result += "\n"
     }

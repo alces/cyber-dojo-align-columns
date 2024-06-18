@@ -1,4 +1,4 @@
---- FAIL: TestAlignt (0.00s)
+word: 'now,    ', width: 7word: 'this    ', width: 7word: 'nightly ', width: 7word: 'why     ', width: 7word: 'foreign ', width: 7word: 'such    ', width: 7word: 'not     ', width: 7word: 'might   ', width: 7word: 'make    ', width: 7word: 'is’t  ', width: 7--- FAIL: TestAlignt (0.00s)
     align_test.go:49: 
         	Error Trace:	align_test.go:49
         	Error:      	Not equal: 
