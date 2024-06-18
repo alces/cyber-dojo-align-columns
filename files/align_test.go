@@ -45,8 +45,16 @@ func TestAddSpaces(t *testing.T) {
     assert.Equal(t, "test   ", addSpaces("test", 7))
 }
 
-func TestAlignt(t *testing.T) {
+func TestAlign(t *testing.T) {
     assert.Equal(t, alignedText, Align(dollarSeparatedText))   
+}
+
+func TestAlignedLine(t *testing.T) {
+    words = []string{"Doth", "make", "the", "night"}
+    sizes = []int{6, 7, 6, 10}
+    expected = "Doth   make    the    night      "
+    
+    assert.Equal(t, expected, alignLine(words, sizes))
 }
 
 func TestMaxFields(t *testing.T) {
