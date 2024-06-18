@@ -5,7 +5,7 @@ import (
 )
 
 func Align(text string) (result string) {
-    retutn
+    return
 }
 
 func addSpaces(word string, width int) string {
