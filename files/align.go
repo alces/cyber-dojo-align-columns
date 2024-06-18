@@ -4,6 +4,10 @@ import (
     "strings"
 )
 
+func Align(text string) (result string) {
+    retutn
+}
+
 func addSpaces(word string, width int) string {
     for i := len(word); i < width; i++ {
         word += " "
