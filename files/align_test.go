@@ -14,7 +14,7 @@ Why$such$impress$of$shipwrights,$whose$sore$task
 Does$not$divide$the$Sunday$from$the$week.
 What$might$be$toward$that$this$sweaty$haste
 Doth$make$the$night$joint$laborer$with$the$day?
-Who$is’t$that$can$inform$me?`
+Who$is't$that$can$inform$me?`
 
 var splittedText = [][]string{
     {"Good", "now,", "sit", "down,", "and", "tell", "me,", "he", "that", "knows,"},
@@ -26,7 +26,7 @@ var splittedText = [][]string{
     {"Does", "not", "divide", "the", "Sunday", "from", "the", "week."},
     {"What", "might", "be", "toward", "that", "this", "sweaty", "haste"},
     {"Doth", "make", "the", "night", "joint", "laborer", "with", "the", "day?"},
-    {"Who", "is’t", "that", "can", "inform", "me?"},
+    {"Who", "is't", "that", "can", "inform", "me?"},
 }
 
 var alignedText = `Good now,    sit     down,  and          tell    me,       he     that knows, 
@@ -38,7 +38,7 @@ Why  such    impress of     shipwrights, whose   sore      task
 Does not     divide  the    Sunday       from    the       week.  
 What might   be      toward that         this    sweaty    haste  
 Doth make    the     night  joint        laborer with      the    day? 
-Who  is’t    that    can    inform       me?     
+Who  is't    that    can    inform       me?     
 `
 
 func TestAddSpaces(t *testing.T) {
