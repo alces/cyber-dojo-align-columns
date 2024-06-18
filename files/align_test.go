@@ -29,7 +29,7 @@ var splittedText = [][]string{
     {"Who", "is’t", "that", "can", "inform", "me?"},
 }
 
-var alignedText = `Good now,    sit     down,  and          tell    me,       he     that knows,
+var alignedText = `Good now,    sit     down,  and          tell    me,       he     that knows, 
 Why  this    same    strict and          most    observant watch  
 So   nightly toils   the    subject      of      the       land,  
 And  why     such    daily  cast         of      brazen    cannon 
