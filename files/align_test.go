@@ -30,7 +30,7 @@ var splittedText = [][]string{
 }
 
 func TestAddSpaces(t *testing.T) {
-    assert.Equal(t, "test   ", addSpaces("test", 6))
+    assert.Equal(t, "test   ", addSpaces("test", 7))
 }
 
 func TestMaxFields(t *testing.T) {
