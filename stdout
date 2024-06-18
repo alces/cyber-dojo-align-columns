@@ -3,15 +3,15 @@
         	Error Trace:	align_test.go:33
         	Error:      	Not equal: 
         	            	expected: "test   "
-        	            	actual  : ""
+        	            	actual  : "test    "
         	            	
         	            	Diff:
         	            	--- Expected
         	            	+++ Actual
         	            	@@ -1 +1 @@
         	            	-test   
-        	            	+
+        	            	+test    
         	Test:       	TestAddSpaces
 FAIL
 exit status 1
-FAIL	_/sandbox	0.002s
+FAIL	_/sandbox	0.003s

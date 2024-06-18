@@ -5,7 +5,11 @@ import (
 )
 
 func addSpaces(word string, width int) string {
-    return ""
+    for i := len(word); i <= width + 1; i++ {
+        word += " "
+    }
+    
+    return word
 }
 
 func maxFields(data [][]string) (result int) {
