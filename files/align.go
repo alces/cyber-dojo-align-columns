@@ -13,7 +13,7 @@ func Align(text string) (result string) {
         for i := 0; i < len(r); i++ {
             word := addSpaces(r[i], width[i]) + " "
             if i == 1 {
-                fmt.Printf("word: '%v', width: %v", word, width[i])
+                fmt.Printf("word: '%v', width: %v\n", word, width[i])
             }    
             result += word
         }
