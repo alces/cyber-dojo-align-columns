@@ -5,7 +5,7 @@ import (
 )
 
 func addSpaces(word string, width int) string {
-    for i := len(word); i <= width; i++ {
+    for i := len(word); i < width; i++ {
         word += " "
     }
     

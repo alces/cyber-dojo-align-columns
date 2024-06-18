@@ -1,17 +1,2 @@
---- FAIL: TestAddSpaces (0.00s)
-    align_test.go:33: 
-        	Error Trace:	align_test.go:33
-        	Error:      	Not equal: 
-        	            	expected: "test   "
-        	            	actual  : "test    "
-        	            	
-        	            	Diff:
-        	            	--- Expected
-        	            	+++ Actual
-        	            	@@ -1 +1 @@
-        	            	-test   
-        	            	+test    
-        	Test:       	TestAddSpaces
-FAIL
-exit status 1
-FAIL	_/sandbox	0.002s
+PASS
+ok  	_/sandbox	0.002s
