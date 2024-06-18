@@ -1,2 +1,17 @@
-PASS
-ok  	_/sandbox	0.002s
+--- FAIL: TestAlignedLine (0.00s)
+    align_test.go:57: 
+        	Error Trace:	align_test.go:57
+        	Error:      	Not equal: 
+        	            	expected: "Doth   make    the    night"
+        	            	actual  : "Doth   make    the    night      "
+        	            	
+        	            	Diff:
+        	            	--- Expected
+        	            	+++ Actual
+        	            	@@ -1 +1 @@
+        	            	-Doth   make    the    night
+        	            	+Doth   make    the    night      
+        	Test:       	TestAlignedLine
+FAIL
+exit status 1
+FAIL	_/sandbox	0.002s
