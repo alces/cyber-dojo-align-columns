@@ -1,8 +1,2 @@
 # _/sandbox [_/sandbox.test]
-./align_test.go:53:5: undefined: words
-./align_test.go:54:5: undefined: sizes
-./align_test.go:55:5: undefined: expected
-./align_test.go:57:21: undefined: expected
 ./align_test.go:57:31: undefined: alignLine
-./align_test.go:57:41: undefined: words
-./align_test.go:57:48: undefined: sizes

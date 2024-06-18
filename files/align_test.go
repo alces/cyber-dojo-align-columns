@@ -50,9 +50,9 @@ func TestAlign(t *testing.T) {
 }
 
 func TestAlignedLine(t *testing.T) {
-    words = []string{"Doth", "make", "the", "night"}
-    sizes = []int{6, 7, 6, 10}
-    expected = "Doth   make    the    night      "
+    words := []string{"Doth", "make", "the", "night"}
+    sizes := []int{6, 7, 6, 10}
+    expected := "Doth   make    the    night      "
     
     assert.Equal(t, expected, alignLine(words, sizes))
 }
