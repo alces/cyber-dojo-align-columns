@@ -1,2 +1,3 @@
-# _/sandbox
-align_test.go:48:17: expected '(', found '*'
+# _/sandbox [_/sandbox.test]
+./align.go:8:5: undefined: retutn
+./align.go:9:1: missing return

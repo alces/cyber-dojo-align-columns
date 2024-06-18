@@ -45,7 +45,7 @@ func TestAddSpaces(t *testing.T) {
     assert.Equal(t, "test   ", addSpaces("test", 7))
 }
 
-func TestAlignt *testing.T) {
+func TestAlignt(t *testing.T) {
     assert.Equal(t, alignedText, Align(dollarSeparatedText))   
 }
 
