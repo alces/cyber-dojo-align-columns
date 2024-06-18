@@ -29,6 +29,10 @@ var splittedText = [][]string{
     {"Who", "is’t", "that", "can", "inform", "me?"},
 }
 
+func TestAddSpaces(t *testing.T) {
+    assert.Equal(t, "test   ", addSpaces("test", 6))
+}
+
 func TestMaxFields(t *testing.T) {
     assert.Equal(t, maxFields(splittedText), 10)
 }
