@@ -54,7 +54,7 @@ func TestAlignedLine(t *testing.T) {
     sizes := []int{6, 7, 6, 10}
     expected := "Doth   make    the    night      "
     
-    assert.Equal(t, expected, alignLine(words, sizes))
+    assert.Equal(t, expected, alignedLine(words, sizes))
 }
 
 func TestMaxFields(t *testing.T) {
