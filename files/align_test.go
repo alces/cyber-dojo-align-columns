@@ -38,8 +38,7 @@ Why  such    impress of     shipwrights, whose   sore      task
 Does not     divide  the    Sunday       from    the       week.
 What might   be      toward that         this    sweaty    haste
 Doth make    the     night  joint        laborer with      the    day?
-Who  is't    that    can    inform       me?
-`
+Who  is't    that    can    inform       me?`
 
 func TestAddSpaces(t *testing.T) {
     assert.Equal(t, "test   ", addSpaces("test", 7))
