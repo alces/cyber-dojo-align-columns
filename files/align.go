@@ -24,11 +24,13 @@ func addSpaces(word string, width int) string {
 }
 
 func alignedLine(words []string, sizes []int) (result string) {
-    for i := 0; i < len(words) - 1; i++ {
+    lastWord := len(words) - 1
+
+    for i := 0; i < lastWord; i++ {
         result += addSpaces(words[i], sizes[i]) + " "
     }
     
-    return result + words[len(words) - 1]
+    return result + words[lastWord]
 }
 
 func maxFields(data [][]string) (result int) {
