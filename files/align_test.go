@@ -29,17 +29,16 @@ var splittedText = [][]string{
     {"Who", "is't", "that", "can", "inform", "me?"},
 }
 
-var alignedText = `Good now,    sit     down,  and          tell    me,       he     that knows, 
-Why  this    same    strict and          most    observant watch  
-So   nightly toils   the    subject      of      the       land,  
-And  why     such    daily  cast         of      brazen    cannon 
-And  foreign mart    for    implements   of      war,      
-Why  such    impress of     shipwrights, whose   sore      task   
-Does not     divide  the    Sunday       from    the       week.  
-What might   be      toward that         this    sweaty    haste  
-Doth make    the     night  joint        laborer with      the    day? 
-Who  is't    that    can    inform       me?     
-`
+var alignedText = `Good now,    sit     down,  and          tell    me,       he     that knows,
+Why  this    same    strict and          most    observant watch
+So   nightly toils   the    subject      of      the       land,
+And  why     such    daily  cast         of      brazen    cannon
+And  foreign mart    for    implements   of      war,
+Why  such    impress of     shipwrights, whose   sore      task
+Does not     divide  the    Sunday       from    the       week.
+What might   be      toward that         this    sweaty    haste
+Doth make    the     night  joint        laborer with      the    day?
+Who  is't    that    can    inform       me?`
 
 func TestAddSpaces(t *testing.T) {
     assert.Equal(t, "test   ", addSpaces("test", 7))
